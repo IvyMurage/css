@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absolute Positioning Example</title>
+    <style>
+        .container {
+            position: relative;
+            width: 300px;
+            /* Explicit width */
+            height: 200px;
+            /* Explicit height */
+            background-color: lightblue;
+        }
+
+        .icon {
+            position: absolute;
+            width: 50px;
+            /* Set a specific width for the icons */
+            height: 50px;
+            /* Set a specific height for the icons */
+            background-color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="icon" style="top: 20px; left: 20px;"></div>
+        <div class="icon" style="top: 20px; right: 20px;"></div>
+        <div class="icon" style="bottom: 20px; left: 20px;"></div>
+        <div class="icon" style="bottom: 20px; right: 20px;"></div>
+    </div>
+</body>
+
+</html>
